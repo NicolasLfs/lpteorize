@@ -2,7 +2,9 @@ export const siteConfig = {
   name: "Teorize",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://teorize.com.br",
   signupUrl:
-    process.env.NEXT_PUBLIC_TEORIZE_SIGNUP_URL ?? "https://teorize.com.br/cadastro",
+    process.env.NEXT_PUBLIC_TEORIZE_SIGNUP_URL ??
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    "https://teorize.com.br",
   termsUrl:
     process.env.NEXT_PUBLIC_TERMS_URL ?? "https://teorize.com.br/termos",
   privacyUrl:
