@@ -1,7 +1,7 @@
 "use client";
 
-import { DashboardMockup } from "@/components/lp/DashboardMockup";
 import { HeroCtas } from "@/components/lp/HeroCtas";
+import { LpScreenshot } from "@/components/lp/LpScreenshot";
 import { Reveal } from "@/components/lp/Reveal";
 
 export function Hero() {
@@ -26,7 +26,13 @@ export function Hero() {
           </div>
         </Reveal>
         <Reveal className="lg:justify-self-end">
-          <DashboardMockup className="w-full max-w-xl" />
+          <LpScreenshot
+            src="/lp/home.png"
+            alt="Tela inicial da plataforma Teorize"
+            caption="Home"
+            className="w-full max-w-xl"
+            priority
+          />
         </Reveal>
       </div>
     </section>

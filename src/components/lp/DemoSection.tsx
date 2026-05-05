@@ -1,4 +1,4 @@
-import { DashboardMockup } from "@/components/lp/DashboardMockup";
+import { LpScreenshot } from "@/components/lp/LpScreenshot";
 import { Reveal } from "@/components/lp/Reveal";
 
 export function DemoSection() {
@@ -16,8 +16,17 @@ export function DemoSection() {
             Interface limpa, dados claros, decisões rápidas.
           </p>
         </Reveal>
-        <Reveal className="mt-12">
-          <DashboardMockup />
+        <Reveal className="mt-12 space-y-16">
+          <LpScreenshot
+            src="/lp/dashboard.png"
+            alt="Dashboard principal com indicadores e KPIs no Teorize"
+            caption="Dashboard"
+          />
+          <LpScreenshot
+            src="/lp/projeto.png"
+            alt="Dashboard de projeto no Teorize"
+            caption="Dashboard do projeto"
+          />
         </Reveal>
       </div>
     </section>

@@ -28,6 +28,18 @@ export function AuthorityBar() {
               </span>
             ))}
           </div>
+          <p className="mx-auto mt-8 max-w-2xl text-center text-sm leading-relaxed text-[#a0a0a0]">
+            Integração com{" "}
+            <a
+              href="https://tintim.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-[#ff6a00] underline-offset-4 hover:underline"
+            >
+              Tintim
+            </a>{" "}
+            para orquestrar comunicações ao lado dos seus dados.
+          </p>
         </Reveal>
       </div>
     </section>
